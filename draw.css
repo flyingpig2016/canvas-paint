@@ -1,0 +1,51 @@
+*{margin:0;padding:0;}
+body{background:#ABCDEF;}
+#header{width: 900px;height:80px;font-size: 40px;margin:0 auto;text-align: center;line-height: 80px;}
+#content{width: 900px;height:550px;background:gray;margin:0 auto;padding:10px;}
+#tool{width:880px;height:140px;background:#ccc;}
+#tool>li{list-style: none;width:175px;height:140px;float:left;border-right:1px solid #fff;text-align: center;margin-bottom: 10px;}
+#tool>li:last-child{border-right:none;}
+
+#image li{width:100%;list-style: none; margin:20px auto;overflow: hidden;}
+#image li button:hover{border:1px solid #fff;}
+#myform{overflow: hidden;height:100%;}
+#tools {width:150px;height:60px;margin:20px auto;list-style: none;}
+#tools li{width:48px;height:20px;float:left;margin-bottom: 10px;border:1px solid }
+#tools li:hover{border:1px solid #fff;}
+#tools li:first-child{background: yellow;}
+#tools li img{display: block;width:20px;height:20px;margin:0 auto}
+
+#shape {width:150px;height:60px;margin:20px auto;list-style: none;}
+#shape li{width:48px;height:20px;float:left;margin-bottom: 10px;border:1px solid }
+#shape li:hover{border:1px solid #fff;}
+#shape li img{display: block;width:20px;height:20px;margin:0 auto}
+#size{margin-top:20px;}
+#size  li{list-style: none;}
+#size li:first-child{background-color: yellow;}
+#size li:hover{border:1px solid orange;}
+#color{width:146px;height:60px;margin:20px auto;overflow: hidden;}
+#color li{list-style: none;float:left;width:20px;height:20px;margin-left:6px;margin-top:5px;border:3px solid #fff;box-sizing: border-box;}
+#color li:hover{border-color:deepskyblue !important;}
+#color #red{background:red}
+#color #green{background:green}
+#color #blue{background:blue}
+#color #yellow{background:yellow}
+#color #white{background:white}
+#color #black{background:black;border: 3px solid crimson;}
+#color #pink{background:pink}
+#color #purple{background:purple}
+#color #cyan{background:cyan}
+#color #orange{background:orange}
+#canvas{background:white;}
+#footer{width:900px;height:30px;margin:0 auto;text-align: center;}
+
+
+
+
+
+
+
+
+
+
+

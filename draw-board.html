@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>drawBoard</title>
+	<link rel="stylesheet" href="draw.css">
+	<meta name="”viewport”" content="”width=device-width;" user-scalable="0;”" maximum-scale="1.0;" initial-scale="1.0;">
+</head>
+
+<body>
+	<header id="header"></header>
+	<section id="content">
+		<ul id="tool">
+			<li>
+				<h3>图像</h3><hr>
+				<ul id="image">
+					<li id="saveimg">
+						<form action="http://localhost/07html5/03cavars/practice/draw-board/down.php" id="myform" method="post">
+							<input type="hidden" id="imgsave" name="dataImg" value="">
+							<button>保存图片</button>
+						</form>
+					</li>
+					<li id="clearimg">
+						<button>清空画板</button>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<h3>工具</h3><hr>
+				<ul id="tools">
+					<li id="means_brush"><img src="imgs/Brush.png" alt="画笔" title="画笔"></li>
+					<li id="means_eraser"><img src="imgs/Eraser.png" alt="" title="橡皮"></li>
+					<li id="means_paint"><img src="imgs/Paint.png" alt="" title="喷漆"></li>
+					<li id="means_straw"><img src="imgs/Straw.png" alt="" title="吸管"></li>
+					<li id="means_text"><img src="imgs/text.png" alt="" title="文字"></li>
+					<li id="means_magnifier"><img src="imgs/Magnifier.png" alt="" title="放大镜"></li>
+				</ul>
+			</li>
+			<li>
+				<h3>形状</h3>
+				<ul id="shape">
+					<li id="means_line"><img src="imgs/line.png" /></li>
+					<li id="means_arc"><img src="imgs/arc.png" /></li>
+					<li id="means_rect"><img src="imgs/rect.png" /></li>
+					<li id="means_poly"><img src="imgs/poly.png" /></li>
+					<li id="means_arcfill"><img src="imgs/arcfill.png" /></li>
+					<li id="means_rectfill"><img src="imgs/rectfill.png" /></li>
+				</ul>
+			</li>
+			<li>
+				<h3>线宽</h3>
+				<ul id="size">
+					<li id="width_1"><img src="imgs/line1px.png" /></li>
+					<li id="width_3"><img src="imgs/line3px.png" /></li>
+					<li id="width_5"><img src="imgs/line5px.png" /></li>
+					<li id="width_7"><img src="imgs/line7px.png" /></li>
+				</ul>
+			</li>
+			<li>
+				<h3>颜色</h3>
+				<ul id="color">
+					<li id="red"></li>
+					<li id="green"></li>
+					<li id="blue"></li>
+					<li id="yellow"></li>
+					<li id="white"></li>
+					<li id="black"></li>
+					<li id="pink"></li>
+					<li id="purple"></li>
+					<li id="cyan"></li>
+					<li id="orange"></li>
+				</ul>
+			</li>
+		</ul>
+		<canvas id="canvas" width="880" height="400">您的浏览器不支持canvas</canvas>
+	</section>
+	<footer id="footer">
+		<small>版权所有，盗版不究 @ 棒棒</small>
+	</footer>
+</body>
+<script src="canvas.js"></script>
+
+</html>
